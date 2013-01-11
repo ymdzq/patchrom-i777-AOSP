@@ -11,21 +11,19 @@ local-phone-apps = ApplicationsProvider \
                    HTMLViewer \
                    InputDevices \
                    KeyChain \
-                   LiveWallpapers \
                    LiveWallpapersPicker \
                    MagicSmokeWallpapers \
                    MediaProvider \
                    MusicFX \
+		   Nfc \
                    NoiseField \
                    PhaseBeam \
                    PicoTts \
                    SamsungServiceMode \
-                   SettingsProvider \
                    SharedStorageBackup \
 				   Stk \
+		   Tag \
                    TvOut \
                    UserDictionaryProvider \
-                   VideoEditor \
                    VisualizationWallpapers \
-                   VoiceDialer \
                    WAPPushManager

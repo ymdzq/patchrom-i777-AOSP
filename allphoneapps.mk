@@ -31,6 +31,7 @@ local-phone-apps = ApplicationsProvider \
                    Mms \
                    Music \
                    MusicFX \
+		   Nfc \
                    NoiseField \
                    PackageInstaller \
                    PhaseBeam \
@@ -46,6 +47,7 @@ local-phone-apps = ApplicationsProvider \
 				   Stk \
                    Superuser \
                    SystemUI \
+		   Tag \
                    TelephonyProvider \
                    TvOut \
                    UserDictionaryProvider \

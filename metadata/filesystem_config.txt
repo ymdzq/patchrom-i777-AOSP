@@ -286,6 +286,7 @@ system/etc/nano/sh.nanorc 0 0 644
 system/etc/nano/tcl.nanorc 0 0 644
 system/etc/nano/tex.nanorc 0 0 644
 system/etc/nano/xml.nanorc 0 0 644
+system/etc/nfcee_access.xml 0 0 644
 system/etc/NOTICE.html.gz 0 0 644
 system/etc/permissions 0 0 755
 system/etc/permissions/android.hardware.audio.low_latency.xml 0 0 644
@@ -295,6 +296,7 @@ system/etc/permissions/android.hardware.camera.front.xml 0 0 644
 system/etc/permissions/android.hardware.camera.xml 0 0 644
 system/etc/permissions/android.hardware.location.gps.xml 0 0 644
 system/etc/permissions/android.hardware.location.xml 0 0 644
+system/etc/permissions/android.hardware.nfc.xml 0 0 644
 system/etc/permissions/android.hardware.sensor.accelerometer.xml 0 0 644
 system/etc/permissions/android.hardware.sensor.compass.xml 0 0 644
 system/etc/permissions/android.hardware.sensor.gyroscope.xml 0 0 644
@@ -312,7 +314,9 @@ system/etc/permissions/android.software.live_wallpaper.xml 0 0 644
 system/etc/permissions/android.software.sip.voip.xml 0 0 644
 system/etc/permissions/android.software.sip.xml 0 0 644
 system/etc/permissions/com.android.location.provider.xml 0 0 644
+system/etc/permissions/com.android.nfc_extras.xml 0 0 644
 system/etc/permissions/com.google.widevine.software.drm.xml 0 0 644
+system/etc/permissions/com.nxp.mifare.xml 0 0 644
 system/etc/permissions/handheld_core_hardware.xml 0 0 644
 system/etc/permissions/platform.xml 0 0 644
 system/etc/ppp 0 0 755
@@ -3071,6 +3075,8 @@ system/etc/terminfo/z/zt-1 0 0 644
 system/etc/terminfo/z/ztx 0 0 644
 system/etc/terminfo/z/ztx11 0 0 644
 system/etc/terminfo/z/ztx-1-a 0 0 644
+system/etc/updatecmds 0 0 755
+system/etc/updatecmds/migrate_nfc.txt 0 0 644
 system/etc/vold.fstab 0 0 644
 system/etc/wifi 0 0 755
 system/etc/wifi/bcm4330_apsta.bin 0 0 644
@@ -3143,6 +3149,7 @@ system/framework/bouncycastle.jar 0 0 644
 system/framework/bu.jar 0 0 644
 system/framework/com.android.future.usb.accessory.jar 0 0 644
 system/framework/com.android.location.provider.jar 0 0 644
+system/framework/com.android.nfc_extras.jar 0 0 644
 system/framework/com.google.widevine.software.drm.jar 0 0 644
 system/framework/content.jar 0 0 644
 system/framework/core.jar 0 0 644
@@ -3192,6 +3199,7 @@ system/lib/hw/keystore.default.so 0 0 644
 system/lib/hw/lights.exynos4.so 0 0 644
 system/lib/hw/lights.goldfish.so 0 0 644
 system/lib/hw/local_time.default.so 0 0 644
+system/lib/hw/nfc.exynos4.so 0 0 644
 system/lib/hw/power.default.so 0 0 644
 system/lib/hw/sensors.exynos4.so 0 0 644
 system/lib/hw/sensors.goldfish.so 0 0 644
@@ -3304,7 +3312,9 @@ system/lib/libnativehelper.so 0 0 644
 system/lib/libncurses.so 0 0 644
 system/lib/libnetlink.so 0 0 644
 system/lib/libnetutils.so 0 0 644
+system/lib/libnfc_jni.so 0 0 644
 system/lib/libnfc_ndef.so 0 0 644
+system/lib/libnfc.so 0 0 644
 system/lib/libOpenMAXAL.so 0 0 644
 system/lib/libOpenSLES.so 0 0 644
 system/lib/libpagemap.so 0 0 644

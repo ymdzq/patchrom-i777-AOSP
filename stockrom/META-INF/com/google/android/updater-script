@@ -1,5 +1,5 @@
-assert(getprop("ro.product.device") == "GT-I9100" ||
-       getprop("ro.build.product") == "GT-I9100" || getprop("ro.product.device") == "galaxys2" || getprop("ro.build.product") == "galaxys2");
+assert(getprop("ro.product.device") == "SGH-I777" ||
+       getprop("ro.build.product") == "SGH-I777" || getprop("ro.product.device") == "i777" || getprop("ro.build.product") == "i777");
 show_progress(0.500000, 0);
 ui_print("Formatting system...");
 unmount("/system");

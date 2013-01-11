@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/accelerometer_subcat_title">
+        <CheckBoxPreference android:title="@string/use_accelerometer_calibration_title_head" android:key="use_accelerometer_calibration" android:summary="@string/use_accelerometer_calibration_summary_head" />
+        <Preference android:title="@string/calibrate_accelerometer_title_head" android:key="calibrate_accelerometer" android:summary="@string/calibrate_accelerometer_summary_head" />
+    </PreferenceCategory>
+</PreferenceScreen>

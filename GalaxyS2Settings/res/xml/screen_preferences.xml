@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_name"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/screen_colors_title">
+        <com.cyanogenmod.settings.device.mDNIeScenario android:entries="@array/mdnie_scenario_entries" android:title="@string/mdnie_scenario_title_head" android:key="mdnie_scenario" android:summary="@string/mdnie_scenario_summary_head" android:defaultValue="4" android:entryValues="@array/mdnie_scenario_entries_values" />
+        <com.cyanogenmod.settings.device.mDNIeMode android:entries="@array/mdnie_mode_entries" android:title="@string/mdnie_mode_title_head" android:key="mdnie_mode" android:summary="@string/mdnie_mode_summary_head" android:defaultValue="1" android:entryValues="@array/mdnie_mode_entries_values" />
+        <com.cyanogenmod.settings.device.mDNIeNegative android:entries="@array/mdnie_negative_entries" android:title="@string/mdnie_negative_title_head" android:key="mdnie_negative" android:summary="@string/mdnie_negative_summary_head" android:defaultValue="0" android:entryValues="@array/mdnie_negative_entries_values" />
+        <com.cyanogenmod.settings.device.mDNIeOutdoor android:entries="@array/mdnie_outdoor_entries" android:title="@string/mdnie_outdoor_title_head" android:key="mdnie_outdoor" android:summary="@string/mdnie_outdoor_summary_head" android:defaultValue="0" android:entryValues="@array/mdnie_outdoor_entries_values" />
+        <com.cyanogenmod.settings.device.PanelGamma android:entries="@array/panel_gamma_entries" android:title="@string/panel_gamma_title_head" android:key="panel_gamma" android:summary="@string/panel_gamma_summary_head" android:defaultValue="0" android:entryValues="@array/panel_gamma_entries_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/touchscreen_subcat_title">
+        <com.cyanogenmod.settings.device.TouchscreenSensitivity android:entries="@array/touchscreen_sensitivity_entries" android:title="@string/touchscreen_sensitivity_title_head" android:key="touchscreen_sensitivity" android:summary="@string/touchscreen_sensitivity_summary_head" android:defaultValue="50" android:entryValues="@array/touchscreen_sensitivity_entries_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/touchkey_subcat_title">
+        <CheckBoxPreference android:title="@string/touchkey_light_title_head" android:key="touchkey_light" android:summary="@string/touchkey_light_summary_head" android:defaultValue="true" />
+        <com.cyanogenmod.settings.device.TouchkeyTimeout android:entries="@array/touchkey_timeout_entries" android:title="@string/touchkey_timeout_title_head" android:key="touchkey_timeout" android:summary="@string/touchkey_timeout_summary_head" android:defaultValue="3" android:entryValues="@array/touchkey_timeout_entries_values" />
+    </PreferenceCategory>
+</PreferenceScreen>
