@@ -1,9 +1,9 @@
 local-phone-apps = ApplicationsProvider \
                    BackupRestoreConfirmation \
-                   Bluetooth \
                    CertInstaller \
                    DefaultContainerService \
                    DrmProvider \
+                   FaceLock \
                    Galaxy4 \
                    GalaxyS2Settings \
                    Gallery2 \
@@ -18,7 +18,6 @@ local-phone-apps = ApplicationsProvider \
 		   Nfc \
                    NoiseField \
                    PhaseBeam \
-                   PicoTts \
                    SamsungServiceMode \
                    SharedStorageBackup \
 				   Stk \
